@@ -81,7 +81,7 @@ https://www.jianshu.com/p/bd2d6ac7a721
 
 ## 用到的包
 
-node-sass/sass-loader/axios/lodash
+node-sass/sass-loader/axios/lodash/react-redux/redux/whatwg-fetch/es6-promise
 
 npm install
 
@@ -106,3 +106,13 @@ react-router url参数更新 但是页面不更新的解决办法:使用 compone
 https://www.jianshu.com/p/a118a55edcbf
 
 https://segmentfault.com/a/1190000010174260
+
+## 手把手教程redux
+
+https://www.cnblogs.com/HoChine/p/8963890.html
+
+## 发送请求
+
+axios
+
+whatwg-fetch es6-promise

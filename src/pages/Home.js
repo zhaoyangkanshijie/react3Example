@@ -1,9 +1,10 @@
 import React from 'react';
+import {connect} from 'react-redux';
 import axios from 'axios';
 
 import '../style/Header.scss';
 
-class Header extends React.Component {
+class Home extends React.Component {
   constructor(props){
     super(props);
     this.state={
@@ -32,9 +33,29 @@ class Header extends React.Component {
 
   render() {
     return (
-        <div>{this.state.data}</div>
+        <div>
+          {this.state.data} <br/>
+          {this.props.text} ==> {this.props.count}
+        </div>
     );
   }
 }
 
-export default Header;
+// 如果只是读取数据，那么只需要这一个方法即可。（这里两个写出来只是为了方便理解）
+function mapStateToProps(state){
+  return {
+      count: state.number.count,
+      text: state.number.text
+  }
+}
+// 同理，如果只是设置数据，那么只需要这一个方法即可。
+function mapDispatchToProps(dispatch) {
+  return {
+
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Home);
