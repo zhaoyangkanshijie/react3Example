@@ -94,3 +94,15 @@ import,extends,export
 constructor中的prop相当于vue的props，this.state相当于vue的data
 
 <SampleButton id="sample" borderWidth={2} onClick={onButtonClick} style={{ color: "red" }} />
+
+## 路由
+
+react-router4 是分布式路由，没有主控路由
+
+console.log(this.props)可看到路由相关信息
+
+react-router url参数更新 但是页面不更新的解决办法:使用 componentWillReceiveProps(newProps) 函数，当 props 改变时，我们就可以在该函数中通过 newProps.match.params.id 拿到新的url参数，进而进行更新
+
+https://www.jianshu.com/p/a118a55edcbf
+
+https://segmentfault.com/a/1190000010174260
