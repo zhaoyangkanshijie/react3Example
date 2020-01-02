@@ -17,15 +17,15 @@ class Home extends React.Component {
     // console.log(this.props.location)
     // console.log(this.props.location.query)
 
-    // axios.get('/api/values')
-    // .then((response) => {
-    //   this.setState({
-    //     data: response.data
-    //   });
-    // })
-    // .catch((error) => {
-    //   console.log(error);
-    // })
+    axios.get('/api/values')
+    .then((response) => {
+      this.setState({
+        data: response.data
+      });
+    })
+    .catch((error) => {
+      console.log(error);
+    })
   }
   componentWillReceiveProps(newProps){
     console.log(console.log(this.props))

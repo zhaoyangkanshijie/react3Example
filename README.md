@@ -111,8 +111,27 @@ https://segmentfault.com/a/1190000010174260
 
 https://www.cnblogs.com/HoChine/p/8963890.html
 
+https://www.redux.org.cn/docs/basics/Reducers.html
+
 ## 发送请求
 
 axios
 
 whatwg-fetch es6-promise
+
+## 待处理
+
+react实现inputbox等组件，并展示
+
+react简结
+1. 项目结构
+2. React指令 js的razor
+3. 生命周期
+4. 双向数据绑定原理
+5. 请求后台资源axios和其它
+6. 路由
+7. 父子组件通信
+8. 页面传参与获取
+9. redux
+10. cookie
+11. 拦截器
