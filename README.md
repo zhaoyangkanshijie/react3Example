@@ -135,3 +135,9 @@ react简结
 9. redux
 10. cookie
 11. 拦截器
+
+## 参考链接
+1. react组件数据 https://www.jianshu.com/p/7665a9971824
+2. 详解react、redux、react-redux之间的关系 https://www.jianshu.com/p/728a1afce96d
+3. 实例讲解react+react-router+redux https://www.cnblogs.com/jztan/p/damonare.html
+4. React指令 https://www.cnblogs.com/r-mp/p/11217965.html
